@@ -1,6 +1,6 @@
 {
   "name": "aks-job-runner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small TypeScript job runner / in-process queue with retries, delays and concurrency.",
   "type": "module",
   "main": "dist/index.js",
