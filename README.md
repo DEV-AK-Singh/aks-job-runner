@@ -20,25 +20,15 @@ A small TypeScript job runner / in-memory queue with retries, delays and concurr
 
 ```bash
 
-# install dev deps
+# install
 
-npm install
-
-# compile
-
-npm run build
-
-# run tests
-
-npm test
+npm install aks-job-runner
 
 ```
 
 ## Example
 
 ```ts
-
-Copy code
 
 import { Queue } from "aks-job-runner";
 
