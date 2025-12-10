@@ -1,0 +1,26 @@
+{
+  "name": "aks-job-runner",
+  "version": "1.0.0",
+  "description": "A small TypeScript job runner / in-process queue with retries, delays and concurrency.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "keywords": [
+    "job",
+    "queue",
+    "worker",
+    "typescript",
+    "runner"
+  ],
+  "author": "Abhishek Singh",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.19.26",
+    "typescript": "^5.9.3",
+    "vitest": "^1.6.1"
+  }
+}
